@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Website Name | Signup</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <img src="/globe.png" alt="website logo - a globe" />
+      <h1>Create Your Account</h1>
+      <form action="/signup" method="post">
+        <label for="username">
+          <input
+            type="text"
+            name="username"
+            id="username"
+            placeholder="Username"
+            autocomplete="name"
+            min="3"
+            max="50"
+            class="form-elements"
+          />
+        </label>
+        <label for="email">
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Email"
+            autocomplete="email"
+            min="5"
+            max="100"
+            class="form-elements"
+          />
+        </label>
+        <label for="password">
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Password"
+            autocomplete="current-password"
+            min="8"
+            max="64"
+            class="form-elements"
+          />
+        </label>
+        <label for="cpassword">
+          <input
+            type="password"
+            name="cpassword"
+            id="cpassword"
+            placeholder="Confirm Password"
+            min="8"
+            max="64"
+            class="form-elements"
+          />
+        </label>
+        <button type="submit" class="form-elements">Signup</button>
+      </form>
+      <p>Already have an account? <a href="login">Login</a></p>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Website Name | Login</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <img src="/globe.png" alt="website logo - a globe" />
+      <h1>Welcome Back</h1>
+      <form action="/login" method="post">
+        <label for="email">
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Email"
+            autocomplete="email"
+            class="form-elements"
+          />
+        </label>
+        <label for="password">
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Password"
+            autocomplete="current-password"
+            class="form-elements"
+          />
+        </label>
+        <button type="submit" class="form-elements">Login</button>
+      </form>
+      <p>Don't have an account? <a href="signup">Signup</a></p>
+    </div>
+  </body>
+</html>
